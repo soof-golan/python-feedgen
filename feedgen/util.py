@@ -11,6 +11,7 @@
 import locale
 import sys
 import lxml  # nosec - we configure a safe parser below
+import lxml.etree
 
 # Configure a safe parser which does not allow XML entity expansion
 parser = lxml.etree.XMLParser(
